@@ -6,9 +6,12 @@
 int main()
 {
 srand(time(NULL));
-int n=10,i,j,minDist=2000,dist,index;
+int n,i,j,minDist=2000,dist,index;
 int cx[n],cy[n];
 int px[n],py[n];
+  
+printf("Enter the number of cities:");
+scanf("%d",n);
 
 //cities are randomly placed with co-ordinates between (0,0) and (1000,1000)
 for(i=0;i<n;i++)
