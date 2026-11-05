@@ -9,7 +9,7 @@ srand(time(NULL));
 int n,i,j,minDist=2000,dist,index;
 
 printf("Enter the number of cities:");
-scanf("%d",n);
+scanf("%d",&n);
 
 int cx[n],cy[n];
 int px[n],py[n];
