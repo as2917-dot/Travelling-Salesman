@@ -5,6 +5,6 @@ A small C program that demonstrates the nearest-neighbour heuristic for the Trav
 ## Build and run
 
 ```sh
-gcc travellingSalesman.c -o travellingSalesman -lm
+gcc TSP_NN.c -o TSP_NN -lm
 ./travellingSalesman
 ```
