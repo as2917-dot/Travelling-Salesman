@@ -62,9 +62,7 @@ int main()
     {
     cx0[i]=50+rand()%700;
     cy0[i]=50+rand()%700;
-    }
-    
-   distance=TravelPath(0,cx0,cy0,px,py);    
+    }    
     
     while(!WindowShouldClose())
     {
