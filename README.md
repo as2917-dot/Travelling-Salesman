@@ -4,11 +4,6 @@ A small C program that demonstrates the nearest-neighbour heuristic for the Trav
 
 Another program I made works for a Multiple starting points and helps you visualise the TSP using Nearest Neighbour along with distance of each run for a particular starting point.
 The starting point can be toggled using ENTER and the previous starting point can be brought back using Backspace.
+
 Note: You need raylib to be installed to run this one.
 
-## Build and run
-
-```sh
-gcc TSP_NN.c -o TSP_NN -lm
-./travellingSalesman
-```
