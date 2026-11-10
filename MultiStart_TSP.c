@@ -49,6 +49,7 @@
     return TotalDist;
     }
 
+
 int main()
 {
     int cx0[n],cy0[n];
